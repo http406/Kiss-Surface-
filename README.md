@@ -15,32 +15,13 @@ The equation for the Kiss Surface, used in the code, is:
 ---
 
 ### **Breaking Down the Components**  
-1. **Radial Function**:  
-   \[
-   r = v^2 \sqrt{\frac{1 - v}{a}}
-   \]
-   This defines how far a point is from the center as a function of \( v \).  
-   - At \( v = -1 \), \( r = 1 \) (wide base).  
-   - At \( v = 1 \), \( r \approx 0 \) (narrow neck).  
-   - At \( v = 0 \), \( r \) is also small, creating symmetry.
 
-2. **X and Y Coordinates**:  
-   \[
-   x = r \cos(u), \quad y = r \sin(u)
-   \]
-   These define a circular cross-section at each height \( v \), with radius \( r \).
-
-3. **Z Coordinate**:  
-   \[
-   z = v
-   \]
-   Simply sets the height of the surface.
+![Image](https://github.com/user-attachments/assets/a527e991-2dc0-458b-b44c-00214489b056)
 
 ---
 
 ### **How This Shapes the Surface**
-- The **\( v^2 \)** term ensures that the base is wide and tapers smoothly towards the center.
-- The **\( \sqrt{1 - v} \)** term controls the narrowing effect at the top, preventing it from expanding too much.
-- The **\( \cos(u) \)** and **\( \sin(u) \)** terms ensure that the structure is **circularly symmetric**.
+
+![Image](https://github.com/user-attachments/assets/eb308faf-b13a-4746-aea2-4e5f41061cce)
 
 This equation creates a **smooth and symmetrical surface** that appears like a **pinched hourglass or a hyperbolic structure**, commonly used in mathematical visualizations.
