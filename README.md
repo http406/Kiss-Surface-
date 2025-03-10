@@ -8,24 +8,9 @@ It is commonly used in **mathematical visualization** and **differential geometr
 ---
 
 ### **Understanding the Equation Used in the Code**  
-The equation for the Kiss Surface, as seen in the image and used in the code, is:
+The equation for the Kiss Surface, used in the code, is:
 
-\[
-x = v^2 \sqrt{\frac{1 - v}{a}} \cos(u)
-\]
-
-\[
-y = v^2 \sqrt{\frac{1 - v}{a}} \sin(u)
-\]
-
-\[
-z = v
-\]
-
-Where:
-- \( u \) is the **azimuthal angle**, ranging from \( -\pi \) to \( \pi \), which controls the rotation around the vertical axis.
-- \( v \) is the **height parameter**, ranging from \( -1 \) to \( 1 \).
-- \( a \) is a constant that influences the scaling of the shape.
+![Image](https://github.com/user-attachments/assets/808972ef-4fcf-4290-9196-b40edf8c17a1)
 
 ---
 
